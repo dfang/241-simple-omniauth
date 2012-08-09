@@ -16,6 +16,7 @@
         <% else %>
           <%= link_to "Sign in with Twitter", "/auth/twitter" %>
           <%= link_to "Sign in with Github", "/auth/github" %>
+          <%= link_to "Sign in with Google ", "/auth/google_oauth2" %>
         <% end %>
       </div>
       <% flash.each do |name, msg| %>
