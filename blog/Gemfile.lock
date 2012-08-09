@@ -60,6 +60,9 @@ GEM
     omniauth-github (1.0.2)
       omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.1)
+    omniauth-google-oauth2 (0.1.13)
+      omniauth (~> 1.0)
+      omniauth-oauth2
     omniauth-oauth2 (1.1.0)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
@@ -97,5 +100,6 @@ DEPENDENCIES
   nifty-generators
   omniauth
   omniauth-github
+  omniauth-google-oauth2
   rails (= 3.0.3)
   sqlite3-ruby (= 1.2.5)

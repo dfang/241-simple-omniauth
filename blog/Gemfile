@@ -5,3 +5,5 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'nifty-generators'
 gem 'omniauth'
 gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
+
